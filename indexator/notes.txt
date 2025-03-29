@@ -1,0 +1,6 @@
+6 ; Ahmed
+6 ; Antoine
+6 ; Chloe
+10 ; Michel
+12 ; Eloise
+12 ; Simon
