@@ -1,4 +1,3 @@
-// Node.h
 #ifndef NODE_H
 #define NODE_H
 
@@ -55,8 +54,7 @@ public:
         // Ajouter l'élément
         elements.push_back(element);
 
-        // Trier les éléments par valeur (comme demandé dans l'énoncé)
-        // Nous utilisons une fonction lambda pour comparer les valeurs
+        // Trier les éléments par valeur
         std::sort(elements.begin(), elements.end(),
             [](const Element<K, V>* a, const Element<K, V>* b) {
                 return a->getValue() < b->getValue();
@@ -79,14 +77,6 @@ public:
         }
 
         return false;  // Élément non trouvé
-    }
-
-    // Tri des éléments (utile après multiples ajouts)
-    void sortElements() {
-        std::sort(elements.begin(), elements.end(),
-            [](const Element<K, V>* a, const Element<K, V>* b) {
-                return a->getValue() < b->getValue();
-            });
     }
 
     // Opérateur de comparaison pour trier les nœuds

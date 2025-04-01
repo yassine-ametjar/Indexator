@@ -1,0 +1,12 @@
+a ; Valeur avec des espaces
+a ; Valeur;avec;point-virgule
+a ; Valeur, avec, virgules
+b ; Valeur avec "guillemets"
+c ; Valeur avec des chiffres 123
+d ; Valeur avec symboles @#$%^&*()
+e ; Valeur très longue qui dépasse largement la taille normale d'une valeur et qui pourrait potentiellement causer des problèmes d'affichage ou de traitement dans certains cas limites de l'application
+f ; Valeur avec caractères spéciaux éèêëàâäôöûüùç
+g ; Valeur avec retour à la ligne
+h ; 
+i ; 123456789
+z ; FIN

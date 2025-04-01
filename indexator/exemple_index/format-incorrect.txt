@@ -1,0 +1,16 @@
+a ; Ligne correcte
+Ligne sans séparateur
+b ; Ligne correcte
+ ; Ligne avec clé manquante
+c ; 
+c
+;Séparateur collé
+d ; Ligne correcte
+e,Séparateur incorrect
+f : Séparateur incorrect
+
+# Ceci est un commentaire
+g ; Ligne après commentaire
+h ; Ligne correcte avec espace à la fin  
+  i ; Ligne correcte avec espaces au début
+j   ;   Ligne avec espaces autour du séparateur

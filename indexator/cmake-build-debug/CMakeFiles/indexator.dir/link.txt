@@ -1,0 +1,3 @@
+"C:\Users\yassi\AppData\Local\JetBrains\CLion 2024.3.5\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\indexator.dir/objects.a
+C:\Users\yassi\AppData\Local\JETBRA~1\CLION2~1.5\bin\mingw\bin\ar.exe qc CMakeFiles\indexator.dir/objects.a @CMakeFiles\indexator.dir\objects1.rsp
+C:\Users\yassi\AppData\Local\JETBRA~1\CLION2~1.5\bin\mingw\bin\G__~1.EXE -g -Wl,--whole-archive CMakeFiles\indexator.dir/objects.a -Wl,--no-whole-archive -o indexator.exe -Wl,--out-implib,libindexator.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\indexator.dir\linkLibs.rsp
